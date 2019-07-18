@@ -17,7 +17,7 @@ def connScan(tgtHost, tgtPort):
         print '[+] ' + str(results)
     except:
         screanLock.acquire()
-        print '[-] %d/tcp closed'
+        # print '[-] %d/tcp closed'
     finally:
         screanLock.release()
         connSkt.close()
@@ -37,21 +37,21 @@ def portScan(tgtHost, tgtPorts):
 
 
 def main():
-#
-#    parser = optparse.OptionParser('Usage -H target host -P ports')
-#    parser.add_option('-H', dest='tgtHost', type='string', help='Host')
-#    parser.add_option('-P', dest='tgtPorts', type='string', help='Ports')
-#    (options, args) = parser.parse_args()
-#    if (options.tgtHost == None) | (options.tgtPorts == None):
-#        print parser.usage
-#        exit(-1)
-#    else:
-#        tgtHost  = options.tgtHost
-#        tgtPorts  = str(options.tgtPorts).split(',')
- 
-    tgtHost = '171.221.207.58'
-    tgtPorts= range(1, 60000)   
-    portScan(tgtHost, tgtPorts)
+
+  # parser = optparse.OptionParser('Usage -H target host -P ports')
+  # parser.add_option('-H', dest='tgtHost', type='string', help='Host')
+  # parser.add_option('-P', dest='tgtPorts', type='string', help='Ports')
+  # (options, args) = parser.parse_args()
+  # if (options.tgtHost == None) | (options.tgtPorts == None):
+  #   print parser.usage
+  #   exit(-1)
+  # else:
+  #   tgtHost  = options.tgtHost
+  #   tgtPorts  = str(options.tgtPorts).split(',')
+   
+  tgtHost = '171.221.207.58'
+  tgtPorts= range(1, 60000)   
+  portScan(tgtHost, tgtPorts)
 
 
 

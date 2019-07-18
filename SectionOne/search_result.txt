@@ -1,0 +1,15 @@
+[+]171.221.207.57:25 220 localhost SMTP Server (JAMES SMTP Server 2.3.2.1) ready Thu, 22 Sep 2016 19:36:02 +0800 (CST)[+]171.221.207.57:80 HTTP/1.1 200 OK
+Date: SUN, 22 Sep 2016 20:14:30
+Connection: Close
+Server: HTTP Server 1.0
+Content-Length: 236
+Content-Type: text/html; charset=gb2312
+
+<HTML><meta http-equiv="Content-Type" content="text/html; charset=gb2312"></meta><body bgcolor='#ffffff'></body><script language="JavaScript">var localHref = "https://171.221.207.57:8443";top.location.replace(localHref);</script></HTML>[+]171.221.207.57:110 +OK localhost POP3 server (JAMES POP3 Server 2.3.2.1) ready [+]171.221.207.59:21 220-FileZilla Server version 0.9.41 beta[+]171.221.207.59:80 HTTP/1.1 200 OK
+Date: SUN, 22 Sep 2016 20:14:37
+Connection: Close
+Server: HTTP Server 1.0
+Content-Length: 236
+Content-Type: text/html; charset=gb2312
+
+<HTML><meta http-equiv="Content-Type" content="text/html; charset=gb2312"></meta><body bgcolor='#ffffff'></body><script language="JavaScript">var localHref = "https://171.221.207.59:8443";top.location.replace(localHref);</script></HTML>[+]171.221.207.73:22 SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.8[+]171.221.207.73:25 220 CAS01.thales-cetca.com Microsoft ESMTP MAIL Service ready at Thu, 22 Sep 2016 19:38:59 +0800[+]171.221.207.115:21 220 FTP service ready.
