@@ -16,7 +16,7 @@ def main():
         passWord = line.strip('\n')
         guess = extractFile(zFile, passWord)
         if guess:
-            print '[+] PassWord = ' + passWord + '\n'
+            print('[+] PassWord = ' + passWord + '\n')
 
 if __name__ == '__main__':
    main() 
