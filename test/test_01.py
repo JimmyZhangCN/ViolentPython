@@ -1,6 +1,7 @@
 import pytest
 import sys
-sys.path.append("..")
+import os
+sys.path.append(os.getcwd())
 from SectionOne import unzip
 
 
